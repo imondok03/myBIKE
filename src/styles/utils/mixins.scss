@@ -14,9 +14,7 @@
   padding-inline: 20px;
 
   @include on-tablet {
-    max-width: 524px;
     padding-inline: 72px;
-    margin-inline: auto;
   }
 
   @include on-desktop {
@@ -26,8 +24,13 @@
   }
 }
 
+.container {
+  @include padding-inline;
+}
+
 @mixin hover($property, $toValue) {
   transition: #{$property} $effectDuration;
+
   &:hover {
     #{$property}: $toValue;
   }

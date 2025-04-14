@@ -23,24 +23,28 @@
       max-width: 187px;
       height: 56px;
     }
-  }
 
-  &__logo--menu-link {
-    display: flex;
-  }
+    &--menu {
+      user-select: none;
 
-  &__logo--menu {
-    max-width: 130px;
-    height: 38px;
+      @include on-tablet {
+        width: 130px;
+        height: 38px;
+      }
 
-    @include on-desktop {
-      max-width: 187px;
-      height: 56px;
+      @include on-desktop {
+        height: 56px;
+        width: 187px;
+      }
     }
   }
 
   &__icons {
     display: flex;
     gap: 24px;
+  }
+
+  @include on-tablet {
+    gap: 32px;
   }
 }

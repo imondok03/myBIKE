@@ -1,7 +1,9 @@
 .header {
+  height: 100vh;
   background-image: url(/src/images/bg-img/header-bg-1.png);
   background-size: cover;
   background-position: right;
+  user-select: none;
 
   @include on-tablet {
     background-position: center;
@@ -9,25 +11,25 @@
 
   &__content {
     height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
   &__title {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 100%;
     letter-spacing: -1.5px;
     text-align: center;
 
     @include on-tablet {
       font-size: 64px;
-      line-height: 64px;
     }
 
     @include on-desktop {
       font-size: 80px;
-      line-height: 80px;
     }
   }
 
@@ -35,11 +37,11 @@
     padding-bottom: 88px;
 
     @include on-tablet {
-      padding-bottom: 100px;
+      padding-bottom: 130px;
     }
 
     @include on-desktop {
-      padding-bottom: 153px;
+      padding-bottom: 203px;
     }
   }
 }

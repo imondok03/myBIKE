@@ -51,12 +51,6 @@
   }
 
   &--close {
-    margin-right: 16px;
-
-    @include on-tablet {
-      margin: 10px 10px 0 0;
-    }
-
     background-image: url(/src/images/icon-img/close-icon.svg);
   }
 }
