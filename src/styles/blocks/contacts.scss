@@ -94,7 +94,7 @@
           width: 87%;
           background-color: #fff;
 
-          transition: transform 0.3s;
+          transition: transform $effectDuration;
           transform: scale(0);
         }
 

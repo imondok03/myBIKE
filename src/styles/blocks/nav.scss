@@ -26,7 +26,7 @@
       width: 100%;
       background-color: #000;
 
-      transition: transform 0.3s;
+      transition: transform $effectDuration;
       transform: scale(0);
       transform-origin: left;
     }

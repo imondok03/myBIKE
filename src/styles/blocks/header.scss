@@ -1,8 +1,9 @@
 .header {
   height: 100vh;
-  background-image: url(/src/images/bg-img/header-bg-1.png);
+  background-image: url(/src/images/bg-img/header-bg-1.avif);
   background-size: cover;
-  background-position: right;
+  background-position: 80%;
+  background-repeat: no-repeat;
   user-select: none;
 
   @include on-tablet {
