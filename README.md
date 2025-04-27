@@ -8,6 +8,7 @@ It showcases featured bikes, highlights essential brand features, and facilitate
 ## 🔗 Live Preview
 
 📍 [Live Demo](https://imondok03.github.io/myBIKE/)
+
 🎨 [Figma Link](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1&p=f&t=XyRzZcNi6o4oTKtR-0)
 
 ---
@@ -39,6 +40,9 @@ yarn start
 🌟 **Features**
 
 📱 **Responsive Design** — adapts perfectly to all devices.
+
 🎯 **Interactive UI** — smooth scrolling, menu animations, and hover effects.
+
 🚀 **Functional Buttons & Links** — active links and contact actions (call, email).
+
 🎨 **Clean UX** — intuitive structure for easy browsing.
